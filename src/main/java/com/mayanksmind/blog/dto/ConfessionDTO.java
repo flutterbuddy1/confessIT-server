@@ -2,13 +2,16 @@ package com.mayanksmind.blog.dto;
 
 import com.mayanksmind.blog.enums.Sentiment;
 import com.mayanksmind.blog.models.User;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ConfessionDTO {
 
     private Long id;

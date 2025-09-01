@@ -1,8 +1,11 @@
 package com.mayanksmind.blog.dto;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class CommentRequest {
     private String content;
 }

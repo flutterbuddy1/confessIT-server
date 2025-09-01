@@ -3,7 +3,10 @@ package com.mayanksmind.blog.dto;
 import lombok.*;
 import java.time.LocalDateTime;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class LikesDTO {
 
     private Long id;
